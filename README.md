@@ -1,88 +1,61 @@
-#Ödev Dönüş Tarihi
-**Ödev dönüş tarihi 10 Ocak 2018 Çarşamba günüdür.** Yapacağınız IYPT projeniz ikinci dönemde de devam edecektir. Projenin bütünüyle tamamlanma tarihi 10 Mayıs 2017'dir. 
 
-# Ödev-2 Yönergeleri 
-1. Odev2'yi grup hesabınıza fork ediniz. 
-2. Aşağıdaki açıklamaları izleyerek kendi hesabınıza fork ettiğiniz Odev2'yi değiştiriniz. 
-3. Dosyayı değiştirmek için ya "Github" içindeki kalem sekmesini kullanabilirsiniz. 
 
-## Yapılacak İşlemler
-Bu hafta projenizle ilgili olarak deneylere başlayacaksanız. Biran önce deneylere başlamanız, projenizde ortaya 
-çıkabilecek sorunlar hakkında tedbir almanızı sağlayacaktır. Bu hafta basit deney malzemeleri kullanarak deneyinizi
-gerçekteltirmeye çalışın. Önemli olan deneye başlamanızdır. Deneyde başarısız olmanız, notunuzu hiçbir şekilde etkilemeyecektir.
-Hatta başarısız olmanız doğaldır. Belki de birkaç kere başarısız olacaksınız. Ama sonunda başaracaksınız. Edison'u örnek alın; 
-Edison ampülü bulmak için en az 1000 kere başarısız oldu. Bir gazeteci "Bin kere nasıl başarısız oldunuz?" diye sorduğunda, 
-Edison: "Ben bin kere başarısız olmadım; ampülü bulmak 1000 adımda oldu" diye cevaplamıştır. 
+# ***Magic Motor-1999***
+# Özet
 
-1. Ödev-2 içinde örnek bir **Materyal ve Yöntem** bölümü bulacaksınız. Buna benzer olarak projenizi yazmaya çalışacaksınız. (http://www.edu.pe.ca/threeoaks/departments/science/resources/Formal_Lab_Report_Guidelines.pdf ). Daha detaylı örnek bir rapor için daha önce yazılmış bir IYPT raporunu örnek alabilirsiniz (http://iyptmag.phy.ntnu.edu.tw/upload/journal/prog/51e0fdd3_20140702.pdf) Sizin yaptığınız deneyi tekrar etmek isteyen bir kişi, bu kısımdaki *materyal ve yöntemleri* kullanarak sizin yaptığınız deney sonuçlarına ulaşabilmeledir. Unutmayın ki deney tekrar edilebilir olmalıdır. Bunun için sizin raporunuzu okuyan bir kişi, bu çalışmanızı tekrar edebilmelidir. Yapacağınız deney için benzer bir "Materyal ve Yöntem" başlığı yazınız. 500 kelimeyi geçmeyecek şekilde bu başlığı doldurunuz. 
+Benim yaptığım proje Magic Motor'da amacım elektrik enerjisini kinetik enerjiye çevirmek. Bunu yapan araçlara elektrik motoru denir. Bunu yapmak için iletken bir tel, bir pil, bir sabit mıknatıs ve bobin kullanacağım. Benim projemin prensibi şöyledir:
 
-Daha kapsamlı bir ödev için daha önce yapılmış 
-2. Yaptığınız çalışmaların foğtaraflarını ve videolarınızı çekmeniz gerekecek. Gerektiğinde çizimler yapacaksınız. Odev2 deposunun içinde "pic" ve "video" diye bir dizin açılmıştır. Deney sırasında çektiğiniz resimler, deney grafiklerini "pic" dizini içinde saklayacaksınız. Çektiğiniz video'ları ise "video" dizini içinde saklayacaksınız. 
-3. Yapacağınız deney seçtiğiniz konuya yakın olmalıdır. Deney başaralı veya başarısız da olabilir. Önemli olan bir deney yapmanız ve bu deneyin videosunu ve resimlerini github hesabına yüklemeniz gerekmektedir. 
+Herhangi bir iletkene doğru akım uygulandığında iletken, sabit bir manyetik alan meydana getirir. N ve S kutuplarından meydana gelen bu sabit manyetik alan etki alanının içindeki iletken cisimlere yada farklı manyetik alanlara sabit mıknatısın gösterdiği etkiyi gösterir. İletken cisimleri çeker, aynı kutuplu manyetik alanları iter; farklı kutuplu manyetik alanları çeker. N kutbundan S kutbuna doğru meydana gelen bu kuvvete manyetik akı adı verilir.
 
-## Aşağıdaki Başlıkları İçini Doldurunuz. (Özet kısmını daha önce yazmıştınız.) 
+Yapımının planı ise şöyledir:
 
-# Özet (Abstract)
-Buraya Ödev-1'de yazdığınız özeti yazınız. 
+D boy pili herhangi bir iletkene bobin sayesinde dokunduracağım. Bu sayede manyetik bir alan oluşacak. Pil ve iletken arasına sabit mıknatıs yerleştireceğim ve projenin yapımı tamamlanacak.
+
+## Kaynakçalar
+DC Motor Nedir?. elektronik.gen.tr . http://www.elektronik.gen.tr/dc-motor-nedir/ Son Erişim Tarihi: 19 Aralık 2015
+"Basit Elektrik Motorunun Çalışma Mantığı Ve Manyetik Alan" Youtube https://www.youtube.com/watch?v=dRJ2BXH81Ko Son Erişim Tarihi: 6 Haziran 2016
+Erol Y. "Kendimiz Yapalım - Basit Elektrik Motoru". Bilim Genç- TÜBİTAK http://www.bilimgenc.tubitak.gov.tr/makale/kendimiz-yapalim-basit-elektrik-motoru Son Erişim Tarihi: 10 Şubat 2015
+
 # Giriş (Introduction)
-Bu bölüm; 
-literatür
-taramasından sonra araştırmanın amacı, problem  ve alt problemler, hipotezler ve alt 
-hipotezler, varsayımlar (
-yapılan kabuller
-), sınırlılıklar, tanımlar alt başlıklarına yer verilecek olan bölümdür. 
-Bu bölümde
-literatür
-araştırması yaparken ve çalışmanızı desteklemek üzere alıntı yaparken proje çalışmanızın 
-konusu ile ilgili başkalarının yaptığı çalışmalardan söz ediniz. Sizin çalışmanızın 
-diğer 
-benzer çalışmalardan ayrılan 
-yönlerini belirtiniz. Bu çalışmayı, 
-literatürde
-ki 
-hangi boşluğu doldurmak için yaptığınızı ve 
-literatürde
-yer  alan 
-benzer çalışmalardan neyi nasıl farklı yapacağınızı açıklayınız. Benzer çalışmalardan nasıl yararlandığınızı ve sizin 
-çalışmanızın neleri hedeflediğini açıklayınız. Bu bölümde kaynakça gösterimi yapınız. 
+
+Magic Motor'da istenen bir elektrik motorudur. Bu motorda bir elektrik kaynağını iletken bir tele dokundurup ortama bir
+mıknatıs koyduğumuzda tel dönmeye başlar ve motorumuz çalışır. Bu projeyi nulduğumda çok sevindim çünkü hem yapımı kolay
+hem de 8. sınıfta bir arkadşım bu projeyi yapmıştı. Yani bir nevi bu projenin nasıl yapılacağını biliyorum. Ve de
+internet üzerinde bu konu hakkında yeterli kaynak var. İşim bu sayede bayağı kolaylaştı.
+Deneyimi yaptım ve ayrıntilarını aşağıya yazdım.
+
 # Materyal ve Yöntem (Experimental Setup)
 
-Bu bölümde aşağıdaki kısımla
-ra ve alt başlıklara yer verilir
+Bu bölümde deney yapmak için kullandığım yötemi, veri toplama ve malzemeler hakkında bilgi vereceğim.
 
-* Çalışmanın yöntemi veya araştırma deseni,
-* Çalışma  grubunuz,  evreniniz,  örnekleminiz 
-(çalışmanızda  kişilerden  veri  toplamışsanız),  çalışma 
-sahanız, yeriniz ve bunların özellikleri,
-* Veri toplama araçlarınızın neler olduğu, onları  siz geliştirdiyseniz bunu nasıl yaptığınız ve  veri 
-toplama süreciniz,
-* Gözlemlerinizi, saha çalışmalarınızı ve bu
-nları nasıl gerçekleştirdiğiniz, verileri nasıl analiz ettiğiniz ve 
-bunun için hangi araç ya da yazılımları kullandığınız,
-* Deney düzenekleri, malzemeleri ve deneysel süreçleri (deneysel bir çalışma ise)
+## Deney Hakkında Veri Toplama
+Deneye başlamam için bu deney hakkında bilgi sahibi olmam gerekirdi. O yüzden ilk önce deneyim hakkında internetten
+bilgi toplatıp denyimin ana konusunu, nasıl yapılacağını ve malzemelerini öğrendim. Bunun için bazı makaleler ve videolar
+kullandım. Bu kaynakları yukarıdaki özet bölümünde belirttim.Artık deneye başlayabilirim.
 
-Deneysel çalışmalarda deney düzeneği, verilerin nasıl toplandığı açıkça anlatılmalıdır. Deney düzeneğindeki 
-önemli ölçüm cihazlarının (ne olduğu, ölçüm aralığı, duyarlılığı vb.) kimyasal ve biyolojik malzemenin temel 
-özellikleri  belirtilmelidir.  
+## Deney Ortamı
+Deneyi yapmak için evimdeki oturma odasını şeçtim. Bu odada kimse oturmadığı için en uygun ortamı burası olarak
+belirledim. Oturma odasında büyük bir masaya malzemelerimi yerleştirdim ve deney yapımına başladım.
 
-Örneğin  bir voltmetre  kullanılıyorsa  bunun  ölçme  aralığı 0-220V, iç impedansı 10 Mohm olan bir voltmetre olarak belirtilmesi, ya da optik özellikleri incelenen bir cam 
-levhanın 25 mmx10 mmx1 mm boyutlarında, görünür bölgedeki ışığı geçiren bir cam plaka şeklinde tanımlanması 
-uygun olacaktır. 
+## Deney Malzemeleri
+Deney malzerim  tanedir. Aşağıda deney malzemelerini sıraladım.
+- 1 adet 1,5 V pil
+- 1 adet mıknatıs( güçlü olması gerekiyor)
+- 2 adet büyük çengelli iğne
+- Bakır tel
 
-* Deneylerin nerede, kimler tarafından yapıldığı, ne kadar sürdüğü ve kaç kez hangi koşullar altında 
-tekrarlandığı gibi bilgilerin açık, öz ve anlaşılır bir şekilde verilmesi gerekir. Bu kısımd
-a çalışılan 
-laboratuvarın özellikleri de belirtilmelidir. 
-
-* Kullanılan analiz ve hesaplamalar bu bölümde verilmelidir.
+## Deneyi Yapanlar ve Deneyin Ne Kadar Sürdüğü
+Deneyi ben yaptım. Deneyim yapımı yaklaşık 15 dakika sürdü.
 
 # Bulgular (Results)
-Burda yaptığınız başlangıç deneyinin sonuçlarını yazacaksınız. Yapacağınız deneyinin başarılı veya başarısız olması önemli değildir. 10 Mayıs 2017'ye kadar projeyinizi geliştirmeniz için izin verilecektir. Fakat yapacağınız IYPT projeniz için bir başlangıç yapmanız gerekmektedir. Basit bir deney olsun ve çok bir zamanını almasın. Yaptığınız deneyin birkaç resmini buraya ekleyiniz ve sonuçları kısaca açıklayın. İleride deneyinizi nasıl geliştereceğinizi anlatın. 
 
-Örnek olarak, bir su birikintisi içinde yanan bir mum bir bardak ile kapatıldığında su seviyesi yükselmektedir. Bu deneyle ilgili bazı resimleri [burdan](https://www.stevespanglerscience.com/lab/experiments/why-does-the-water-rise/) bulabilirsiniz. Sizin de benzer resimler çekmeniz beklenmektedir. Her grup kendi deneyine ait resimleri çekecektir. Başka bir grubun resimleri kullanıldığı takdirde bu bir kopya girişimi olarak kabul edilecektir. 
+Deneyim başarısızlıkla sonuçlandı. Başarısızlığımın nedeni deney malzemelerinden mıknatıs ve telin deneye uygun olmamasıdır. Fakat bu yaptığım ilk deney olduğu için hatalarımı ilerideki deneylerimde düzelteceğime inanıyorum.İleride yapmam gerekenler:
+- İlk deneyde kullandığımdan daha güçlü bir mıknatıs kullanmalıyım.
+- Kullandığım telin iletken olmasına ya da bakır olmasına dikkat etmeliyim.
+Yukarıda yazdıklarımı yaparsam deneyin başarıyla sonuçlanacağına inanıyorum.
 
 
 # Sonuç ve Tartışma (Conclusion and Discussion) 
-Burasını doldurmaya görek yoktur. Daha sonraki ödevin konusun olacaktır. 
+
 
 
