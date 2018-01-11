@@ -53,6 +53,7 @@ Deneyi ben yaptım. Deneyim yapımı yaklaşık 15 dakika sürdü.
 Deneyim başarısızlıkla sonuçlandı. Başarısızlığımın nedeni deney malzemelerinden mıknatıs ve telin deneye uygun olmamasıdır. Fakat bu yaptığım ilk deney olduğu için hatalarımı ilerideki deneylerimde düzelteceğime inanıyorum.İleride yapmam gerekenler:
 - İlk deneyde kullandığımdan daha güçlü bir mıknatıs kullanmalıyım.
 - Kullandığım telin bakır olmasına dikkat etmeliyim ve telin sağ ve sol kısımlarını falçatayla dikkatlice kazımalıyım.
+
 Yukarıda yazdıklarımın sonuç kesin vereceği belli değildir fakat bunları yaparsam denyimin başarıyla sonuçlanacağına inanıyorum.
 
 # Sonuç ve Tartışma (Conclusion and Discussion) 
